@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Qualite Graphics</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+      .fakeimg {
+        height: 300px;
+        background: #aaa;
+      }
+
+      .fakeimg-sm {
+        height: 100px;
+        background: #aaa;
+      }
+
+      .fakeimg-xs {
+        font-size: 10px;
+        height: 50px;
+        width: 70px;
+        background: #aaa;
+      }
+
+      .payment-container {
+        padding: 10px;
+      }
+
+      .h-align > * {
+        display: inline-block;
+      }
+
+      .vert-align {
+        vertical-align: middle;
+      }
+
+      .bg-dblue {
+        height: auto;
+        background: #002e60;
+        text-align: center;
+      }
+
+      .navbar {
+        background-image: linear-gradient(to bottom, #1a487a 0%, #002e60 100%);
+      }
+
+      .phone-address .phone {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .phone a {
+        color: #222222;
+        text-decoration: none;
+      }
+
+      .get-quote {
+        padding: 12px;
+      }
+
+      .title-font {
+        font-size: 26px;
+        font-weight: 600;
+        color: white;
+        width: auto;
+      }
+
+      .tb-quote {
+        padding: 5px;
+      }
+
+      .widget_nav_menu {
+        list-style: none;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>My First Bootstrap 4 Page</h1>
+      <p>Resize this responsive page to see the effect!</p>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-sm-4 col-md-4 col-sm-height col-sm-middle col-md-height col-md-middle"
+        >
+          <img src="logo.jpg" width="50%" height="auto" alt="LOGO" />
+        </div>
+        <div
+          class="col-sm-4 col-md-4 col-sm-height col-sm-middle col-md-height col-md-middle"
+        >
+          <div class="text-center vert-align">
+            <span class="hidden-xs">
+              <h1>QUALITE GRAPHICS</h1>
+            </span>
+          </div>
+        </div>
+        <div
+          class="col-sm-4 col-md-4 col-sm-height col-sm-middle col-md-height col-md-middle"
+        >
+          <div class="phone-address text-right vert-align">
+            <span class="phone hidden-xs">
+              <a href="tel:09123456789">
+                <i class="fa fa-phone"></i>
+                09123456789
+                <strong id="phone_number"></strong>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIGN COMPANY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">INDOOR SIGNS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUTDOOR SIGNS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">VEHICLE WRAPS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">VINYL SIGNS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BUSINESS SIGNS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CUSTOM SIGNS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top:30px">
+      <div class="fakeimg">Fake Image</div>
+    </div>
+
+    <div class="container" style="margin-top:30px">
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="fakeimg-sm">Fake Image</div>
+        </div>
+        <div class="col-sm-2">
+          <div class="fakeimg-sm">Fake Image</div>
+        </div>
+        <div class="col-sm-2">
+          <div class="fakeimg-sm">Fake Image</div>
+        </div>
+        <div class="col-sm-2">
+          <div class="fakeimg-sm">Fake Image</div>
+        </div>
+        <div class="col-sm-2">
+          <div class="fakeimg-sm">Fake Image</div>
+        </div>
+        <div class="col-sm-2">
+          <div class="fakeimg-sm">Fake Image</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:30px">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="bg-dblue">
+            <span class="title-font">GET A FREE QUOTE</span>
+            <form action="/">
+              <div class="form-group get-quote">
+                <input
+                  type="text"
+                  class="form-control tb-quote"
+                  id="fname"
+                  placeholder="Full Name"
+                />
+                <input
+                  type="text"
+                  class="form-control tb-quote"
+                  id="pnumber"
+                  placeholder="Phone Number"
+                />
+                <input
+                  type="email"
+                  class="form-control tb-quote"
+                  id="email"
+                  placeholder="Email Address"
+                />
+                <textarea
+                  class="form-control"
+                  id="query"
+                  placeholder="What can we help you?"
+                ></textarea>
+                <button type="button" class="btn btn-primary btn-lg">
+                  REQUEST MY QUOTE
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="bg-dblue">
+            <span class="title-font">WE ACCEPT:</span>
+            <div class="payment-container">
+              <div class="h-align">
+                <div class="fakeimg-xs">Fake Image</div>
+                <div class="fakeimg-xs">Fake Image</div>
+                <div class="fakeimg-xs">Fake Image</div>
+                <div class="fakeimg-xs">Fake Image</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding-top: 12px">
+            <div class="bg-dblue">
+              <span class="title-font">Services</span>
+            </div>
+          </div>
+
+          <div class="widget_nav_menu">
+            <ul>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/a-frame-signs/">
+                  A-frame Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/ada-signs/">
+                  Accessibility Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/acrylic-signs/">
+                  Acrylic Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/address-signs/">
+                  Address Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/awning-signs/">
+                  Awning Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/banners/">
+                  Banners
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/bar-signs/">
+                  Bar Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/blade-signs/">
+                  Blade Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/boat-wraps/">
+                  Boat Wraps
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/building-signs/">
+                  Building Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/bus-wraps/">
+                  Bus Wraps
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/cabinet-signs/">
+                  Cabinet Signs
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/canopy-tents/">
+                  Canopy Tents
+                </a>
+              </li>
+              <li>
+                <a href="https://www.calgarysignsandwraps.com/car-wraps/">
+                  Car Wraps
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="d-sm-none" />
+        </div>
+
+        <div class="col-sm-8">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <div class="fakeimg">Fake Image</div>
+          <p>Some text..</p>
+          <p>
+            Sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.
+          </p>
+          <br />
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg">Fake Image</div>
+          <p>Some text..</p>
+          <p>
+            Sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dblue">
+      <span class="title-font">GET A FREE QUOTE</span>
+      <form action="/">
+        <div class="form-group get-quote">
+          <input
+            type="text"
+            class="form-control tb-quote"
+            id="fname"
+            placeholder="Full Name"
+          />
+          <input
+            type="text"
+            class="form-control tb-quote"
+            id="pnumber"
+            placeholder="Phone Number"
+          />
+          <input
+            type="email"
+            class="form-control tb-quote"
+            id="email"
+            placeholder="Email Address"
+          />
+          <textarea
+            class="form-control"
+            id="query"
+            placeholder="What can we help you?"
+          ></textarea>
+          <button type="button" class="btn btn-primary btn-lg">
+            REQUEST MY QUOTE
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>Footer</p>
+    </div>
+  </body>
+</html>
